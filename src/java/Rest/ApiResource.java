@@ -51,7 +51,8 @@ public class ApiResource {
 //        String jsonList = gson.toJson(list);
 ////        JOptionPane.showMessageDialog(null, jsonList);
 //        return jsonList;
-        String projectJson = gson.toJson((List<Project>)facade.getAllProjects());
+//        String projectJson = gson.toJson((List<Project>)facade.getAllProjects());
+        String projectJson = "Doesnt work yet";
         return projectJson;
     }
 
@@ -83,7 +84,8 @@ public class ApiResource {
 //        String jsonList = gson.toJson(list);
 ////        JOptionPane.showMessageDialog(null, jsonList);
 //        return jsonList;
-        String projectJson = gson.toJson(facade.getAllUsers());
+//        String projectJson = gson.toJson(facade.getAllUsers());
+        String projectJson = "Doesnt work yet";
         return projectJson;
     }
 
